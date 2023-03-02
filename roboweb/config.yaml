@@ -2,5 +2,14 @@ baseURL: 'http://roboweb.app/'
 languageCode: 'en-us'
 title: 'Roboweb'
 theme: "ananke"
+# see https://gohugo.io/templates/menu-templates/#section-menu-for-lazy-bloggers
+menu:
+  main:
+  - identifier: login
+    name: Login
+    url: https://ui.roboweb.app
+    weight: -110
+
 params:
   env: production
+  description: "An AI Assistant for DevOps"

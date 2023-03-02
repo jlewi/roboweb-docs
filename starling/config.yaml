@@ -1,0 +1,6 @@
+baseURL: 'http://starlingai.com/'
+languageCode: 'en-us'
+title: 'Starling AI Labs'
+theme: "ananke"
+params:
+  env: production

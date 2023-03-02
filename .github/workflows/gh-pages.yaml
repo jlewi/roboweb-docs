@@ -23,11 +23,11 @@ jobs:
 
       - name: Build
         run: hugo --minify
-        working-directory: starling
+        working-directory: roboweb
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: starling/public
+          publish_dir: roboweb/public

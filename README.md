@@ -1,11 +1,11 @@
 # website
-Starling AI website
+Roboweb website
 
 
 ## Build static pages
 
 ```
-cd starling
+cd roboweb
 hugo -D
 ```
 
@@ -17,7 +17,7 @@ The `-D` option causes drafts to be published.
 To start the server
 
 ```
-cd starling
+cd roboweb
 hugo server -D
 ```
 

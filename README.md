@@ -35,8 +35,8 @@ hugo server -D
 
 * Followed [GitHub Pages Custom Domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) instructions to 
 
-  * Setup an APEX domain for starlingai.com
-  * Use a CNAME record for www.starlingai.com
+  * Setup an APEX domain for roboweb.app
+  * Use a CNAME record for www.roboweb.app
 
 # References
 

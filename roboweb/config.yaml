@@ -3,8 +3,10 @@ languageCode: 'en-us'
 title: 'Roboweb'
 theme: "ananke"
 # see https://gohugo.io/templates/menu-templates/#section-menu-for-lazy-bloggers
+sectionPagesMenu: main
 menu:
   main:
+  # Add an extra menu icon to handle login.
   - identifier: login
     name: Login
     url: https://ui.roboweb.app

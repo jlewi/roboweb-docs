@@ -14,4 +14,4 @@ menu:
 
 params:
   env: production
-  description: "An AI Assistant for DevOps"
+  description: "An AI Assistant for Exploratory Programming"

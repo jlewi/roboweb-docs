@@ -12,14 +12,14 @@ Install the extensions
 
 ```
 python -m pip install roboweb-extension
-python -m pip install roboweb-server-extension
+python -m pip install roboweb-server
 ```
 
 Activate the extension
 
 
 ```
-python -m jupyter serverextension enable --py roboweb_server_extension
+python -m jupyter serverextension enable --py roboweb_server
 ```
 
 ## Configure the Extension

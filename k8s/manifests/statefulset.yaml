@@ -1,0 +1,51 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: notebook
+  labels:
+    app: notebook
+spec:
+  ports:
+  - port: 80
+    name: web
+  clusterIP: None
+  selector:
+    app: notebook
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: notebook
+spec:
+  selector:
+    matchLabels:
+      app: notebook
+  serviceName: "notebook"
+  replicas: 1
+  # Assume pods are ready as soon as they are deployed
+  # Otherwise since we have a single replica we may not update
+  # the pod if there is a stuck pod.
+  minReadySeconds: 0 # by default is 0
+  template:
+    metadata:
+      labels:
+        app: notebook # has to match .spec.selector.matchLabels
+    spec:
+      securityContext:
+        # runAsUser: 0
+        # Use Jovyan user.
+        runAsUser: 1000
+      terminationGracePeriodSeconds: 10
+      containers:
+      - name: notebook
+        image: notebook
+        ports:
+        - containerPort: 80
+          name: web
+        resources:
+          limits:
+            cpu: ".5"
+            memory: .5Gi
+          requests:
+            cpu: ".5"
+            memory: .5Gi

@@ -55,7 +55,7 @@ You can deploy this app on Kubernetes using [these instructions](docs/k8s).
 ## Usage
 
 
-### Sign In / Create An Account
+### 1. Sign In / Create An Account
 
 In the right hand navigation window click the roboweb icon (which is a small robot). This will open up the roboweb extension in the right half of the screen.
 
@@ -65,7 +65,7 @@ Sign in with Google or create an account.  Accounts help you keep track of your 
 
 {{< figure src="/docs/signin.png" alt="SignIn Page">}}
 
-### Add Your OpenAPI Key
+### 2. Add Your OpenAPI Key
 
 Once you are logged in, click the settings button in the navigation bar inside Roboweb's JupyterLab extension.
 
@@ -76,7 +76,7 @@ On the settings page, enter your OpenAI API key and then click `Save`.  Your API
 {{< figure src="/docs/apikey.png" alt="Settings">}}
 
 
-### Using the extension to fix code
+### 3. Using the extension to fix code
 
 If an error is detected in a cell, roboweb will automatically ask you if you would like to fix the error.
 

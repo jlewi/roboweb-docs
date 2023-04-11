@@ -7,7 +7,7 @@ draft: false
 Roboweb is an AI assistant for [exploratory programming](https://en.wikipedia.org/wiki/Exploratory_programming). It embeds OpenAI's [ChatGPT](https://chat.gpt.ai/)
 in JupyterLab to create an ideal environment for exploratory programming.
 
-Here's a short video demo 👇
+Here's a short demo 👇
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/0695aeabb5154f058873e4bd6eb60e72" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

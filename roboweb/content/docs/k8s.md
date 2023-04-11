@@ -4,7 +4,7 @@ date: 2023-04-06T09:49:12-07:00
 draft: false
 ---
 
-This quickstart shows you how to start JupyterLab with the Roboweb extension on
+This article shows you how to start JupyterLab with the Roboweb extension on
 Kubernetes using our public docker image
 
 * [us-west1-docker.pkg.dev/roboweb-images/roboweb-images/jupyterlab:v0.0.5](us-west1-docker.pkg.dev/roboweb-images/roboweb-images/jupyterlab)

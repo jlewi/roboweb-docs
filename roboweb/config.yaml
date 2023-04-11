@@ -22,6 +22,9 @@ params:
   env: production
   description: "An AI Assistant for Exploratory Programmingßßß"
   enableEmoji: true
+  images:
+    - cover.png
+
 
 # https://discourse.gohugo.io/t/raw-html-getting-omitted-in-0-60-0/22032/15
 # Needed to render html shortcodes used for videos

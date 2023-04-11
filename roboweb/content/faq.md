@@ -24,18 +24,11 @@ your chat history across sessions.
 
 # How can I get help?
 
-Email the public mailing list [roboweb-users@googlegroups.com](https://groups.google.com/g/roboweb-users/about).
+Email us here [roboweb-users@googlegroups.com](https://groups.google.com/g/roboweb-users/about).
 
 # Where can I file a bug or feature request?
 
 You can open a GitHub Issue in [jlewi/roboweb-docs](https://github.com/jlewi/roboweb-docs).
 
-# Who is Building Roboweb?
-
-The Roboweb team currently consists of
-
-* [Hamel Husain](https://hamel.dev/)
-* [Jeremy Lewi](https://www.linkedin.com/in/jeremy-lewi-600aaa8/)
-* [Francisco Uribe](https://www.linkedin.com/in/francisco-uribe-0a466211/)
 
 

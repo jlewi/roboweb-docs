@@ -5,6 +5,10 @@ on:
     branches:
       - main  # Set a branch to deploy
   pull_request:
+  workflow_dispatch:
+  
+permissions:
+  contents: write
 
 jobs:
   deploy:

@@ -2,6 +2,7 @@
 title: "Exploratory Programming With AI"
 date: 2023-03-02T15:43:09-08:00
 draft: false
+toc: true
 ---
 
 Roboweb is an AI assistant for [exploratory programming](https://en.wikipedia.org/wiki/Exploratory_programming). It embeds OpenAI's [ChatGPT](https://chat.gpt.ai/)

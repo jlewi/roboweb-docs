@@ -1,5 +1,9 @@
 {{ define "main" }}
  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
-    {{ .Content }}
+    {{/*
+      This uses the recipe on https://vilcins.medium.com/add-anchor-links-to-headings-in-hugo-d8b6ea37f49
+      to make the headings into links to themselves.
+    */}}
+    {{- .Content | replaceRE "(<h[1-6]\\sid=\"([^\"]+)\"\\s?>)(.+)(</h[1-6]+>)" "${1}<a href=\"#${2}\">${3}</a>${4}" | safeHTML -}}
   </article>
 {{ end }}

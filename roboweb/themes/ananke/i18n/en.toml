@@ -14,7 +14,10 @@ other = "read more"
 other = "By"
 
 [whatsInThis]
-other = "What's in this {{ .Type }}"
+# The original value was What's in this page {{.Type}} and that led
+# to weird titles like "Whats in this Docs" This is used by 
+# menu-contextual.html to render the table of contents.
+other = "What's in this page"
 
 [related]
 other = "Related"

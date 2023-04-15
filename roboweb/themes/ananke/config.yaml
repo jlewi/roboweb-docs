@@ -1,6 +1,3 @@
 module:
   hugoVersion:
     min: "0.84.0"
-
-params:
-  toc: true    

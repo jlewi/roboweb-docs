@@ -2,6 +2,7 @@
 title: "Kubernetes"
 date: 2023-04-06T09:49:12-07:00
 draft: false
+toc: true
 ---
 
 This article shows you how to start JupyterLab with the Roboweb extension on
@@ -14,7 +15,7 @@ It is based on [Kubeflow's JupyterLab image](https://www.kubeflow.org/docs/compo
 and thus should be deployable inside Kubeflow.
 
 If you don't have Kubeflow, you can use the minimal Kubernetes manifest in
-[jlewi/roboweb-docs/k8s/manifests]https://github.com/jlewi/roboweb-docs/tree/main/k8s/manifests).
+[jlewi/roboweb-docs/k8s/manifests](https://github.com/jlewi/roboweb-docs/tree/main/k8s/manifests).
 
 Clone the [jlewi/roboweb-docs](https://github.com/jlewi/roboweb-docs.git) repository
 

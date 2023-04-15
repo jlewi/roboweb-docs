@@ -24,11 +24,24 @@ params:
   enableEmoji: true
   images:
     - cover.png
+  toc: true
 
-
+tableOfContents:
+  endLevel: 3
+  ordered: false
+  # H1 is the page title so not worth including it.
+  startLevel: 2
+  
 # https://discourse.gohugo.io/t/raw-html-getting-omitted-in-0-60-0/22032/15
 # Needed to render html shortcodes used for videos
-markup:
+markup:  
   goldmark:
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
     renderer:
       unsafe: true

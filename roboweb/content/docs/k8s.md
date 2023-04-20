@@ -8,7 +8,7 @@ toc: true
 This article shows you how to start JupyterLab with the Roboweb extension on
 Kubernetes using our public docker image
 
-* [us-west1-docker.pkg.dev/roboweb-images/roboweb-images/jupyterlab:v0.0.5](us-west1-docker.pkg.dev/roboweb-images/roboweb-images/jupyterlab)
+* [us-west1-docker.pkg.dev/roboweb-images/roboweb-images/kubeflow/jupyterlab:latest](us-west1-docker.pkg.dev/roboweb-images/roboweb-images/kubeflow/jupyterlab:latest)
 
 This docker image contains JupyterLab with the Roboweb extension already installed.
 It is based on [Kubeflow's JupyterLab image](https://www.kubeflow.org/docs/components/notebooks/container-images/#custom-images)

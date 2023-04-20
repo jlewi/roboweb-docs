@@ -4,6 +4,6 @@ namespace: roboweb
 resources:
 - statefulset.yaml
 images:
-- digest: sha256:57541c038b51300216bc7686e18d838c087da426304c9543db06940fa1c987ea
-  name: notebook
-  newName: us-west1-docker.pkg.dev/roboweb-images/roboweb-images/jupyterlab:v0.0.6
+- name: notebook
+  newName: us-west1-docker.pkg.dev/roboweb-images/roboweb-images/kubeflow/jupyterlab
+  newTag: latest
